@@ -14,3 +14,6 @@ Bu proje, MealDB API'sini kullanarak rastgele bir yemek tarifi gösteren bir web
 - **CSS**: Stil ve animasyonlar için.
 - **JavaScript**: Dinamik içerik ve API entegrasyonu için.
 - **Animate.css**: Sayfa animasyonları için.
+
+Your site is live at
+https://olcayprojects.github.io/mealdbRandomMeal/
