@@ -1,0 +1,112 @@
+/* Genel Reset */
+body,
+h1,
+h2,
+p,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Genel Body Stili */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden; /* Yatay kaydırmayı engeller */
+  text-align: center;
+}
+
+/* Header Stili */
+header {
+  margin-bottom: 20px;
+}
+
+/* Main ve Meal Container Stili */
+main {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+#meal {
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Meal Başlığı Stili */
+#meal h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Meal Resmi Stili */
+#meal img {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Malzemeler Listesi Stili */
+#meal ol {
+  list-style-type: upper-roman; /* Numaralandırılmış liste */
+  padding-left: 20px; /* Listeye iç boşluk ekler */
+  margin: 0; /* Margin kaldırıldı */
+  text-align: left; /* Metni sola hizalar */
+}
+
+ul {
+  list-style: thumbs;
+}
+
+#meal li {
+  padding: 5px 0;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+}
+
+#meal li img {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+}
+
+/* Kategori ve Talimatlar Stili */
+#meal p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+#meal p strong {
+  color: #4caf50;
+}
+
+/* Animate.css ile tanımlanmış animasyon süresini değiştirme */
+.animate__animated {
+  animation-duration: 2s; /* Varsayılan animasyon süresi */
+}
+
+.animate__fadeIn {
+  animation-duration: 2s; /* FadeIn animasyon süresi */
+}
+
+.animate__zoomIn {
+  animation-duration: 1s; /* ZoomIn animasyon süresi */
+}
+
+/* Typewriter Efekti İçin CSS */
+.typewriter {
+  overflow: hidden; /* Taşan içeriği gizler */
+  font-family: monospace; /* Monospace font ile daha gerçekçi yazı makinesi efekti */
+}
